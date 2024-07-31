@@ -8,6 +8,19 @@ body {
    "weth" 100;
    margin:0px;
 }
+.section-title{
+  color:#181818;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-description{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
 
 .text-primary {
   color: rgb(0, 140, 255);
@@ -59,15 +72,64 @@ nav a {
 
 .header{
   background-color: rgb(255, 241, 152);
-
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .banner{
-  padding:30px 30px 30px 150px;
+  padding:30px 30px 0px 150px;
   display:flex;
   align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  justify-content: space-between;
 }
 
 .banner .profile-pic{
-  width:500px;
+  width:600px;
+  margin-bottom: 0px;
+  height:750px;
+}
+
+.banner-greeting{
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.banner-title{
+  font-size: 85px;
+  font-weight: 500;
+  color: #00072e;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.banner-description{
+  margin-top: 30px;
+
+}
+
+.profile-pic{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.banner-content{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  max-width: 500px;
+}
+
+/* main section style */
+
+
+/* about section style */
+.about{
+  padding: 130px;
+  border-radius: 10px;
+  background: rgb(255, 241, 152);
+  margin:140px;
 }
