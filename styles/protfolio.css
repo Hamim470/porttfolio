@@ -125,11 +125,23 @@ nav a {
 
 /* main section style */
 
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  /* justify-content: center; */
+}
 
 /* about section style */
 .about{
   padding: 130px;
   border-radius: 10px;
   background: rgb(255, 241, 152);
-  margin:140px;
+  margin:140px 140px;
+}
+.about-info-container{
+  display:flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
 }
