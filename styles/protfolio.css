@@ -133,7 +133,7 @@ main{
 
 /* about section style */
 .about{
-  padding: 130px;
+  padding:20px 110px;
   border-radius: 10px;
   background: rgb(255, 241, 152);
   margin:140px 140px;
@@ -141,7 +141,18 @@ main{
 .about-info-container{
   display:flex;
   justify-content: space-around;
+  font-size: 15px;
 }
 .about-info{
   text-align: center;
+}
+.info-title{
+  margin-bottom: 0px;
+}
+.info-description{
+  margin-top: 1px;
+}
+
+#what-i-do-description{
+  padding: 30px 200px;
 }
