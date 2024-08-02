@@ -131,6 +131,12 @@ main{
   /* justify-content: center; */
 }
 
+main section{
+  color:#1c1f1f;
+  margin-top:100px;
+  margin-bottom:0px;
+}
+
 /* about section style */
 .about{
   padding:20px 110px;
@@ -156,3 +162,28 @@ main{
 #what-i-do-description{
   padding: 30px 200px;
 }
+
+.skill{
+  padding:30px;
+  gap:40px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 10px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  margin:12px;
+}
+
+
+.skills-container{
+  display:flex;
+}
+
+.image-description{
+  color: rgb(117, 117, 117);
+}
+
+.resume-column-title{
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+}
+
