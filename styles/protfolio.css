@@ -216,3 +216,11 @@ main section{
   text-align: center;
   margin-top: 50px;
 }
+
+
+footer{
+  display:flex;
+  background: rgb(255, 241, 152);
+  padding: 130px 150px;
+  margin-top:130px;
+}
