@@ -72,11 +72,10 @@ nav a {
 
 .header{
   background-color: rgb(255, 241, 152);
-  background-image: url(/images/header_bg.png);
+  background-image: url(/images/header_bg.png),url('/images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  background-position: bottom right,top left;
+
 }
 
 .banner{
@@ -89,7 +88,7 @@ nav a {
 }
 
 .banner .profile-pic{
-  width:600px;
+  width:750px;
   margin-bottom: 0px;
   height:750px;
 }
