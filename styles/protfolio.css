@@ -293,4 +293,10 @@ textarea{
 .banner .profile-pic{
   width:100%;
 }
+.btn-primary{
+  margin-bottom:15px;
+}
+nav ul li{
+  border:0;
+}
 }
